@@ -1,0 +1,1 @@
+export { getPrimes } from './arithmetic'
