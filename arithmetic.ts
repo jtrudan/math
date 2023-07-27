@@ -2,7 +2,7 @@
  * Returns all prime numbers between 2 and n.
  * Uses the Sieve of Eratosthenes algorithm.
  */
-export function getPrimes(n: number) {
+export function getPrimes(n: number): number[] {
     // create the number grid
     let grid = Array.apply(null, Array(n - 1))
 
@@ -22,7 +22,7 @@ export function getPrimes(n: number) {
     }
 
     // build solution
-    let primes = []
+    let primes: number[] = []
     for (let i = 0; i < grid.length; i++) {
         if (grid[i]) primes.push(grid[i])
     }
