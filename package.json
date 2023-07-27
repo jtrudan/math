@@ -1,0 +1,26 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "A library of interesting mathematical algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtrudan/math.git"
+  },
+  "keywords": [
+    "library",
+    "mathematics"
+  ],
+  "author": "Jack Trudan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jtrudan/math/issues"
+  },
+  "homepage": "https://github.com/jtrudan/math#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
