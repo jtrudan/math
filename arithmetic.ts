@@ -26,7 +26,10 @@ export function getPrimes(n: number) {
     for (let i = 0; i < grid.length; i++) {
         if (grid[i]) primes.push(grid[i])
     }
-
+    // let primes = grid.filter((num) => { num === false })
+    // console.log(primes)
     return primes
 
 }
+
+getPrimes(10)
